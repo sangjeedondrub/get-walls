@@ -17,7 +17,7 @@
 # 1. mkdir downloads
 # 2. . ./get-walls.sh
 # 
-for page in $(seq 3 4024); do
+for page in $(seq 1 4024); do
     echo $page
     if [ $page -eq 1 ]; then
         pageurl=https://wallpaperswide.com
