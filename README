@@ -1,0 +1,30 @@
+# -*- mode:org; mode:auto-fill; fill-column:80; coding:utf-8; -*-
+#+title: Crawl images from wallpaperwide
+#+author: Sangjee Dondrub
+#+email: sangjeedondrub@live.com
+
+#+begin_quote
+
+Fetched high-quality wallpaper from this amazing site: [[https://wallpaperswide.com/][WallpapersWide.com - Free 4K
+& 8K UltraHD Desktop Backgound Wallpapers]].
+
+All the image data will be used only for particular research purposes.
+
+#+end_quote
+
+* Install dependencies
+
+#+begin_src sh
+brew install wget
+#+end_src
+
+#+begin_src sh
+cargo install htmlq
+#+end_src
+
+* Usage
+
+#+begin_src sh
+mkdir -p downloads
+. ./get-walls.sh
+#+end_src
